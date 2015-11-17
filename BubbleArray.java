@@ -21,13 +21,13 @@ public class BubbleArray extends SortArray {
     
     do {
       continueLoop = false;
-      for( int i = 0; i < array.length-1; i++ ) {
-        if( array[i] > array[i+1] ) {
+      for( int i = 0; i < bubble.length-1; i++ ) {
+        if( bubble[i] > bubble[i+1] ) {
           // swap these values
-          //swap( i, i+1 );
-          int temp = array[i];
-          array[i] = array[i+1];
-          array[i+1] = temp;
+          swap( i, i+1 );
+          //int temp = array[i];
+          //array[i] = array[i+1];
+          //array[i+1] = temp;
           
           continueLoop = true;
         }

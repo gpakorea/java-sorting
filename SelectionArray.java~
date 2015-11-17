@@ -1,0 +1,19 @@
+// SelectionArray.java
+
+public class SelectionArray {
+  
+  // instance variables
+  private int[] selection = new int[12];
+  private String name;
+  
+  public SelectionArray() {
+    selection = super.array;
+    name = "selection";
+  } // END constructor
+  
+  // methods
+  public void selectionSort() {
+    
+  }
+  
+} // END SelectionArray

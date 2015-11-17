@@ -26,7 +26,7 @@ public class SortArray {
   } // END toString
   
   public void swap( int first, int second ) {
-    System.out.println("swapping");
+    // System.out.println("swapping");
     int temp = array[first];
     array[first] = array[second];
     array[second] = temp;

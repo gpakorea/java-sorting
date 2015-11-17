@@ -16,6 +16,10 @@ public class Sorter {
     System.out.println( "Bubble sorted: " + newone );
     
     // Selection Sort
+    SelectionArray s = new SelectionArray();
+    System.out.println( "Selection unsorted: " + s );
+    s.selectionSort();
+    System.out.println( "Selection sorted: " + s );
     
     // Insertion Sort
     
