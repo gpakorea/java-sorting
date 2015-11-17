@@ -17,7 +17,7 @@ public class SelectionSort {
       for( int j=0; j<a.length; j++ ) {
         if( a[i] < a[j] ) {
           System.out.println( a[i] + " is smaller than " + a[j] );
-          b.push(a[i]);
+          //b.push(a[i]);
         }
       }
     }

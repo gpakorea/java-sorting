@@ -1,0 +1,29 @@
+/*
+ * Project: Sorter.java
+ * Description: Main class that implements many different sorting methods from Sort classes
+ * Name: Aaron Snowberger
+ * Date: Nov 17, 2015
+ */
+
+public class Sorter {
+  
+  public static void main( String[] args ) {
+    
+    int[] ips = { 76, 71, 63, 65, 66, 64, 70, 69, 68, 67, 72, 73 };
+    int[] bubbleips = ips;
+    int[] selectionips = ips;
+    int[] insertionips = ips;
+    int[] quickips = ips;
+    int[] mergeips = ips;
+    int[] radixips = ips; // later?
+    
+    bubbleSort( bubbleips );
+    selectionSort( selectionips );
+    insertionSort( insertionips );
+    quickSort( quickips );
+    mergeSort( mergeips );
+    radixSort( radixips );
+    
+  } // END main method
+  
+} // END class Sorter
