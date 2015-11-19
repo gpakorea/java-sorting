@@ -1,0 +1,17 @@
+// BubbleSort.java
+
+public class BubbleSort extends Sorts {
+  
+  // instance variables
+  private int[] bubble = new int[12];
+  private String name;
+  
+  // constructor
+  public BubbleSort() {
+    bubble = super.array;
+    name = "Bubble";
+  }
+  
+  // methods
+  
+} // END BubbleSort

@@ -1,0 +1,22 @@
+// InsertionSort.java
+
+public class InsertionSort extends Sorts {
+  
+  // instance variables
+  private int[] insertion = new int[12];
+  private String name;
+  
+  // constructor
+  public InsertionSort() {
+    insertion = super.array;
+    name = "Insertion";
+  }
+  
+  // methods
+  public void sort() {
+    // Timing: BEST = O(n); AVE/WORST = O(n^2)
+    
+    
+  } // END sort()
+  
+} // END InsertionSort
