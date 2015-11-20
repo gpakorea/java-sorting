@@ -21,8 +21,8 @@ public class SelectionSort extends Sorts {
     int minValue, minIndex;
     for( int i = 0; i < selection.length; ++i ) {
       
-      System.out.print( "Step #" + count + " " );
-      printArray();
+      //System.out.print( "Step #" + count + " " );
+      //printArray();
       
       // Temp values to remember the lowest # and its index
       minValue = selection[i];
@@ -30,7 +30,7 @@ public class SelectionSort extends Sorts {
       
       for( int j = i+1; j < selection.length; ++j ) { 
         
-        System.out.print( "Step #" + count ); // Step #1-1
+        System.out.print( "Step #" + count + " " ); // Step #1-1
         printArray();
         
         // Resets the lowest # and index in the TEMP values
@@ -40,7 +40,7 @@ public class SelectionSort extends Sorts {
           minIndex = j;
         }
         
-        ++count;
+        count++;
         
       }
       
