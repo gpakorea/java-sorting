@@ -1,0 +1,11 @@
+// MergeSort.java
+
+public class MergeSort extends Sorts {
+  
+  // instance variables
+  
+  // constructor
+  
+  // methods
+  
+} // END MergeSort
