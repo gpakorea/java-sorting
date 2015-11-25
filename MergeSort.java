@@ -95,4 +95,39 @@ public class MergeSort extends Sorts {
     
   }
   
+  public int linearSearch( int key ) {
+    
+    // 1. Search the array one-by-one
+    // 2. If the key exists, return index
+    // 3. If no key, return -1
+    
+    for( int i=0; i<merge.length; i++ ) {
+      if( key == merge[i] ) {
+        return i;
+      }
+    }
+    return -1;
+    
+  } // END linearSearch()
+  
+  public int binarySearch( int key ) {
+    
+    int start = 0;
+    int end = merge.length-1;
+    
+    while( start <= end ) {
+      
+      int mid = (start + end) / 2; 
+      if( key == merge[mid] ) { // key = mid, return the index
+        return mid;
+      } else if( key > merge[mid] ) { // key > mid, search right side
+        start = mid + 1; 
+      } else { // key < mid, search left side
+        end = mid - 1; 
+      }
+    }
+    return -1;
+    
+  } // END binarySearch() 
+  
 } // END MergeSort
